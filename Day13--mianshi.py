@@ -43,3 +43,4 @@ if st.button("开始模拟面试"):            #创建按钮
             answer = result["choices"][0]["message"]["content"]
             st.subheader("面试题")
             st.write(answer)
+            st.caption("Made by hzx | 免费试用，有问题反馈随时说")
